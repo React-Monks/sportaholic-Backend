@@ -7,6 +7,7 @@ const favSchema = new mongoose.Schema({
     name : String,
     imgUrl : String,
     userEmail: String,
+    type:String
 })
 
 const favModel = mongoose.model('favorites',favSchema)

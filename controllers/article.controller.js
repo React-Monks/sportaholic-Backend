@@ -38,6 +38,7 @@ const updateArticleController =async (req,res)=>{
         article.userName = dataArticle.userName;
         article.userEmail =dataArticle.userEmail;
         article.text =dataArticle.text;
+        article.title =dataArticle.title;
         article.save();
     });
      
